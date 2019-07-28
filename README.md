@@ -1,1 +1,3 @@
 # Quanser Active Suspension System Design (LQR MPC Controller)
+This repository contains the code of designing Linear Quadratic Regulator (LQR) and Model Predictive Controller (MPC) to achieve desired performance based on Quanser Active Suspension System. The code should be run in MATLAB and Labview.
+The simulated system model is  determined based on the experiment data by using least square method. Then, LQR and MPC controllers are designed according to three performance specifications: ride comfort, suspension travel and road handling. In addition, the performances of the designed controllers are compared regarding the performance specifications.
