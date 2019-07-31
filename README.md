@@ -7,10 +7,14 @@ The finished tasks are as follow:
 3. Implement the designed LQR and MPC controllers on the real Quanser Active Suspension System.
 ## Get Started
 Firstly, download or clone the repository to a local folder.
+
 **System Identification**
-1. Run modelEstimation.m file to start system identification process.
+1. Run model_Estimation.m file to start system identification process.
 2. The default path for experiment data is:
 **inputfile = '..\..\ExperimentData\SystemID Data\input2.csv'; 
 outputfile = '..\..\ExperimentData\SystemID Data\output2.csv';**
 Please make sure the CSV files are in the corresponding paths, or the paths should be altered according to the new locations.
+
 **LQR Controller Design**
+1. Open LQR_Design.m to run the LQR controller design process. 
+2. Open LQR_Implementation.slx file to simulate the performance of LQR controller in Simulink. The achieved feedback gain in step 1, can be used in 
