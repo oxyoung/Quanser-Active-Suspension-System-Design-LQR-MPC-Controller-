@@ -1,3 +1,4 @@
+%This function pre-processes the experiment data files.
 function [ x, u, y ] = dataProcessing(inputfile, outputfile)
     %Read in a data set to use to perform linear regression to fit the model.
     data = csvread(outputfile,1);
