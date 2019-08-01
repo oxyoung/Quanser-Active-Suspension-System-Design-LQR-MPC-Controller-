@@ -17,4 +17,9 @@ Please make sure the CSV files are in the corresponding paths, or the paths shou
 
 **LQR Controller Design**
 1. Open LQR_Design.m to run the LQR controller design process. 
-2. Open LQR_Implementation.slx file to simulate the performance of LQR controller in Simulink. The achieved feedback gain in step 1, can be used in 
+2. Open LQR_Implementation.slx file to simulate the performance of LQR controller in Simulink. The achieved feedback gain in step 1 is used in step 2 to generate LQR control effort.
+3. Monitoring every scope can check the performance of every state.
+
+**MPC Controller Design**
+1. Run RoadBump.slx in Simulink to simulate the road bump disturbance.
+2. Open MPC_Design.m file to simulate the performance of MPC controller. Varying weighting matrix of Q and R and altering prediction horizon will change the performance of MPC controller.
